@@ -1,0 +1,60 @@
+:root{
+    --background-color: #FCF8F5;
+    --primary-color: #C73B0F;
+    --secondary-color: #952C0C;
+    --white: #ffffff;
+    --black: #000000;
+}
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+.section-desserts button{
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 600;
+    border: 1px solid var(--secondary-color);
+}
+.section-desserts button:hover{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.section-desserts button i{
+    color: var(--primary-color);
+}
+.section-desserts .price{
+    color: var(--primary-color);
+}
+.section-desserts .name-desserts{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.card-header{
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+.cantidad{
+    color: var(--primary-color);
+}
+.btn-cancel{
+    background-color: var(--white);
+    color: var(--black);
+    border: 0px;
+}
+.bg-card{
+    background-color: var(--background-color);
+    color: var(--black);
+}
+.btn-card{
+    background-color: var(--white);
+    color: var(--secondary-color);
+    font-weight: 800;
+    border: 0px;
+    border: 2px solid var(--secondary-color);
+}
+button.btn-card:hover{
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
